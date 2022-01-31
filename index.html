@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>THE RAP MACHINE</title>
+
+  <meta name="description"
+    content="An enhanced rhyme generator for rapping and songwriting that provides rhymes, synonyms, adjectives and random words.">
+  <meta name="keywords" content="rhymes, rhyme generator, rhyming words, rap rhyme generator, rap machine">
+  <meta name="author" content="Bartlomiej J.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <div id="thin-bar" class="bar">
+    <a href="index.html">About</a>
+  </div>
+
+  <div id="top-bar">
+
+    <div id="logo">
+      <h1 style="font-weight: 300; ">
+        RAP MACHINE</h1>
+    </div>
+
+    <div id="myTitle">
+      <h1>Looking for rhymes or inspirations? </h1><br>
+      <p>Search for rhymes, adjectives and synonyms.</p></br>
+      <p>Draw completely random words.</p>
+    </div>
+
+  </div>
+
+  <main id="main">
+
+    <div class="container">
+      <div id="instruction">
+        <p>Type in a word or click random button</p>
+      </div>
+
+      <form id="form" autocomplete="off">
+        <input type="text" id="input" value="" placeholder="let's rap">
+        <button id="adjectives" class="button">ADJECTIVES</button>
+        <button id="rhyme" class="button">RHYME</button>
+        <button id="random" class="button">RANDOM</button>
+        <button id="synonyms" class="button">SYNONYMS</button>
+        <button id="similar" class="button">SIMILAR</button>
+        <button id="slike" class="button">SOUNDS LIKE</button>
+      </form>
+      <!-- Response field -->
+      <div id="response-field"></div>
+
+      <div class="display-quantity">
+
+        <div>
+          <button id="q-20" class="quantity-button active">20</button>
+          <button id="q-50" class="quantity-button">50</button>
+          <button id="all" class="quantity-button">all</button>
+        </div>
+        <div>
+          <p>Maximum number of displayed words</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-2">
+      <p id="describtion">The RapMachine is an inspirational/songwriting web-app that helps you to write rap,
+        it differs from rhyme generators by having additional functionalities like drawing a random word or showing
+        synonyms.</p>
+    </div>
+  </main>
+
+
+  <div class="bar">
+    <a href="mailto:bj90@wp.pl?Subject=Hello%20again" style="display: inline-block; font-size: 12px;"
+      target="_top">E-mail me</a>
+    <!--<a href="./form" id="contact" style="display: inline-block; font-size: 12px;">Contact me.</a>-->
+    <a href="https://www.datamuse.com/api/" id="api" class="links"
+      style="display: inline-block; font-size: 12px;">Powered by Datamuse API. </a>
+  </div>
+
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src="script.js" type="module"></script>
+
+</body>
+
+</html>
+
+<!--kw-->
+
+<!-- lyrics to rap -->
